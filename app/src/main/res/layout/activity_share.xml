@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c8000000"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="bottom|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/wxFriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/icon_wx_friend"
+            android:text="微信好友"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/wxTimeline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/icon_wx_timeline"
+            android:text="微信朋友圈"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/qqFriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/icon_qq"
+            android:text="QQ好友"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/qzone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/icon_qzone"
+            android:text="QQ空间"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="top|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/qrcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/icon_qrcode"
+            android:text="对面好友"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/copyLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/icon_copy"
+            android:text="复制链接"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+</LinearLayout>
+
